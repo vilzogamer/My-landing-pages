@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Follow & Join</title>
+<style>
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+    padding:24px; font-family:Arial,Helvetica,sans-serif;
+    background:linear-gradient(135deg,#111827,#312e81);
+    color:#fff;
+  }
+  .card{
+    width:100%; max-width:390px; text-align:center; padding:32px 24px;
+    border-radius:24px; background:rgba(255,255,255,.10);
+    backdrop-filter:blur(14px); box-shadow:0 20px 50px rgba(0,0,0,.35);
+  }
+  .avatar{
+    width:82px;height:82px;border-radius:50%;margin:0 auto 18px;
+    display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(135deg,#ff2d55,#7c3aed);
+    font-size:32px;font-weight:800;
+  }
+  h1{margin:0 0 8px;font-size:25px}
+  p{margin:0 0 24px;color:#d1d5db;line-height:1.5}
+  .btn{
+    display:block;width:100%;padding:15px 18px;margin:12px 0;
+    border-radius:14px;text-decoration:none;font-weight:700;font-size:16px;
+    transition:.2s transform;
+  }
+  .btn:active{transform:scale(.98)}
+  .insta{background:#fff;color:#111827}
+  .telegram{background:#229ED9;color:#fff}
+  .note{font-size:12px;color:#9ca3af;margin-top:18px}
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="avatar">V</div>
+    <h1>Follow Me & Join</h1>
+    <p>Follow my Instagram and join my Telegram channel for updates.</p>
+
+    <!-- CHANGE THIS TO YOUR INSTAGRAM PROFILE URL -->
+    <a class="btn insta" href="https://www.instagram.com/marvelkanniszz/" target="_blank" rel="noopener">
+      📸 Follow me on Instagram
+    </a>
+
+    <a class="btn telegram"
+       href="https://t.me/+X6ctkfu3wPFkMjRl"
+       target="_blank" rel="noopener">
+      ✈️ Join Telegram
+    </a>
+
+    <div class="note">After following on Instagram, come back here and tap Join Telegram.</div>
+  </main>
+</body>
+</html>
